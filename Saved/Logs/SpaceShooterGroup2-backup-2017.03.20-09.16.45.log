@@ -1,0 +1,1341 @@
+﻿Log file open, 03/14/17 09:12:18
+LogInit:Display: Running engine for game: SpaceShooterGroup2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1825630150) SRandInit(1825630152).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.065115
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.14-09.12.18:167][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.14-09.12.18:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.14-09.12.18:177][  0]LogInit: Computer: W65158
+[2017.03.14-09.12.18:177][  0]LogInit: User: Thomasn
+[2017.03.14-09.12.18:177][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.14-09.12.18:177][  0]LogInit: High frequency timer resolution =3.613310 MHz
+[2017.03.14-09.12.18:177][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.14-09.12.18:177][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.14-09.12.18:177][  0]LogMemory: Process Physical Memory: 192.55 MB used, 192.55 MB peak
+[2017.03.14-09.12.18:177][  0]LogMemory: Process Virtual Memory: 197.86 MB used, 197.86 MB peak
+[2017.03.14-09.12.18:177][  0]LogMemory: Physical Memory: 5908.20 MB used, 16302.16 MB total
+[2017.03.14-09.12.18:177][  0]LogMemory: Virtual Memory: 523.55 MB used, 8388608.00 MB total
+[2017.03.14-09.12.18:209][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.03.14-09.12.18:569][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.14-09.12.18:591][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 770' (Feature Level 11_0)
+[2017.03.14-09.12.18:591][  0]LogD3D11RHI:       1989/0/7895 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.14-09.12.18:591][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.14-09.12.18:596][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.14-09.12.18:596][  0]LogD3D11RHI:     GPU DeviceId: 0x1184 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.14-09.12.18:597][  0]LogWindows: EnumDisplayDevices:
+[2017.03.14-09.12.18:597][  0]LogWindows:    0. 'NVIDIA GeForce GTX 770' (P:1 D:1)
+[2017.03.14-09.12.18:597][  0]LogWindows:    1. 'NVIDIA GeForce GTX 770' (P:0 D:1)
+[2017.03.14-09.12.18:597][  0]LogWindows:    2. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.14-09.12.18:598][  0]LogWindows:    3. 'NVIDIA GeForce GTX 770' (P:0 D:0)
+[2017.03.14-09.12.18:598][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.03.14-09.12.18:598][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.03.14-09.12.18:598][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.03.14-09.12.18:599][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2017.03.14-09.12.18:599][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.03.14-09.12.18:599][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 770
+[2017.03.14-09.12.18:599][  0]LogD3D11RHI:   Driver Version: 372.70 (internal:21.21.13.7270, unified:372.70)
+[2017.03.14-09.12.18:599][  0]LogD3D11RHI:      Driver Date: 8-25-2016
+[2017.03.14-09.12.18:599][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.14-09.12.18:607][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.14-09.12.18:622][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.14-09.12.18:622][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Intermediate/Shaders/WorkingDirectory/8900/).
+[2017.03.14-09.12.18:622][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomasn/AppData/Local/Temp/UnrealShaderWorkingDir/C42FF2234F67F0F16F9DA3A81EE8DFA6/'.
+[2017.03.14-09.12.18:622][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.14-09.12.19:641][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.14-09.12.19:651][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.14-09.12.19:661][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.14-09.12.19:671][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.14-09.12.19:681][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.14-09.12.19:690][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.14-09.12.19:700][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.14-09.12.19:709][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.14-09.12.19:717][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.14-09.12.19:724][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.14-09.12.19:732][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.14-09.12.19:747][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.14-09.12.19:747][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.14-09.12.19:749][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.14-09.12.19:771][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.14-09.12.19:778][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.14-09.12.19:786][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.14-09.12.19:793][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.14-09.12.19:801][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.14-09.12.19:801][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.14-09.12.19:867][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.14-09.12.19:927][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/Thomasn/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.14-09.12.19:927][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Thomasn/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.03.14-09.12.19:927][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.14-09.12.19:927][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.14-09.12.19:927][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.14-09.12.19:927][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.14-09.12.19:944][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.14-09.12.19:955][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomasn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.14-09.12.20:155][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.14-09.12.20:155][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.14-09.12.20:309][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.14-09.12.20:309][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.14-09.12.20:309][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.14-09.12.20:543][  0]LogAssetRegistry: FAssetRegistry took 0.0200 seconds to start up
+[2017.03.14-09.12.20:570][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025372 seconds
+[2017.03.14-09.12.20:577][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.03.14-09.12.20:577][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.03.14-09.12.20:577][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.14-09.12.20:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.14-09.12.20:756][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.14-09.12.20:756][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.14-09.12.21:340][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.03.14-09.12.21:349][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.14-09.12.21:569][  0]SourceControl: Info Source control is disabled
+[2017.03.14-09.12.21:570][  0]SourceControl: Info Source control is disabled
+[2017.03.14-09.12.21:576][  0]SourceControl: Info Source control is disabled
+[2017.03.14-09.12.21:583][  0]SourceControl: Info Source control is disabled
+[2017.03.14-09.12.21:780][  0]LogEngine: Initializing Engine...
+[2017.03.14-09.12.21:781][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.14-09.12.21:782][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.14-09.12.21:928][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.03.14-09.12.21:932][  0]LogInit: No audio devices found!
+[2017.03.14-09.12.21:961][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Thomasn/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.14-09.12.21:968][  0]LogInit: Texture streaming: Enabled
+[2017.03.14-09.12.21:989][  0]LogInit: Transaction tracking system initialized
+[2017.03.14-09.12.22:008][  0]BlueprintLog: New page: Editor Load
+[2017.03.14-09.12.22:073][  0]LocalizationService: Info Localization service is disabled
+[2017.03.14-09.12.22:130][  0]LogConsoleResponse:Display: 
+[2017.03.14-09.12.22:243][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.03.14-09.12.22:243][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.14-09.12.22:336][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/' took 0.01s
+[2017.03.14-09.12.22:336][  0]SourceControl: Info Source control is disabled
+[2017.03.14-09.12.22:336][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/SpaceShooterLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.14-09.12.22:337][  0]LightingResults: New page: Lighting Build
+[2017.03.14-09.12.22:339][  0]MapCheck: New page: Map Check
+[2017.03.14-09.12.22:339][  0]LightingResults: New page: Lighting Build
+[2017.03.14-09.12.22:612][  0]LogStaticMesh: Building static mesh SpaceCraft...
+[2017.03.14-09.12.22:637][  0]LogStaticMesh: Built static mesh [0.02s] /Game/SpaceCraft.SpaceCraft
+[2017.03.14-09.12.22:729][  0]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.12.22:736][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.14-09.12.22:738][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.14-09.12.22:779][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.265ms to complete.
+[2017.03.14-09.12.22:779][  0]LogFileHelpers: Loading map 'SpaceShooterLevel' took 0.444
+[2017.03.14-09.12.22:932][  0]LogCollectionManager: Loaded 0 collections in 0.001661 seconds
+[2017.03.14-09.12.22:972][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Collections/' took 0.01s
+[2017.03.14-09.12.22:972][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Developers/Thomasn/Collections/' took 0.01s
+[2017.03.14-09.12.22:972][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Collections/' took 0.01s
+[2017.03.14-09.12.22:972][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.14-09.12.22:980][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2062 classes and 375 folders.
+[2017.03.14-09.12.22:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.14-09.12.22:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.14-09.12.22:983][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2017.03.14-09.12.22:987][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.03.14-09.12.23:022][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.14-09.12.23:025][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.14-09.12.23:037][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.14-09.12.23:081][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.03.14-09.12.23:082][  0]LogLoad: Full Startup: 5.57 seconds (BP compile: 0.07 seconds)
+[2017.03.14-09.12.23:082][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.14-09.12.23:082][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.14-09.12.23:091][  0]LogOcInput: OculusInput pre-init called
+[2017.03.14-09.12.23:121][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.14-09.12.23:289][  0]LogRenderer: Reallocating scene render targets to support 904x484 (Frame:2).
+[2017.03.14-09.12.23:421][  2]LogAssetRegistry: Asset discovery search completed in 2.8987 seconds
+[2017.03.14-09.12.23:421][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.14-09.12.23:421][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.03.14-09.12.36:141][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-09.12.36:141][597]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:12:36)
+[2017.03.14-09.12.36:142][597]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.12.36:145][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003060s)
+[2017.03.14-09.12.36:146][597]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.12.36:146][597]LogPlayLevel: PIE: World Init took: (0.001331s)
+[2017.03.14-09.12.36:147][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.005064s)
+[2017.03.14-09.12.36:325][597]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.12.36:367][597]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.12.36
+[2017.03.14-09.12.36:377][597]LogWorld: Bringing up level for play took: 0.013223
+[2017.03.14-09.12.36:442][597]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.03.14-09.12.36:453][597]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.164
+[2017.03.14-09.12.38:986][878]LogBlueprintUserMessages: [BP_SpaceShip_296] false
+[2017.03.14-09.12.38:986][878]LogBlueprintUserMessages: [BP_SpaceShip_296] Space Bar
+[2017.03.14-09.12.38:986][878]LogBlueprintUserMessages: [BP_SpaceShip_296]  pressed
+[2017.03.14-09.12.39:021][881]LogBlueprintUserMessages: [BP_SpaceShip_296] released
+[2017.03.14-09.12.39:113][892]LogBlueprintUserMessages: [BP_SpaceShip_296] false
+[2017.03.14-09.12.39:113][892]LogBlueprintUserMessages: [BP_SpaceShip_296] Space Bar
+[2017.03.14-09.12.39:113][892]LogBlueprintUserMessages: [BP_SpaceShip_296]  pressed
+[2017.03.14-09.12.39:180][900]LogBlueprintUserMessages: [BP_SpaceShip_296] released
+[2017.03.14-09.12.39:272][911]LogBlueprintUserMessages: [BP_SpaceShip_296] false
+[2017.03.14-09.12.39:272][911]LogBlueprintUserMessages: [BP_SpaceShip_296] Space Bar
+[2017.03.14-09.12.39:272][911]LogBlueprintUserMessages: [BP_SpaceShip_296]  pressed
+[2017.03.14-09.12.39:322][917]LogBlueprintUserMessages: [BP_SpaceShip_296] released
+[2017.03.14-09.12.58:831][552]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.03.14-09.16.15:051][387]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-09.16.15:158][387]BlueprintEditorCompileResults: Info [0237.64] Compile of BP_SpaceShip successful! [in 106 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-09.16.16:656][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_SpaceShip" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset" SILENT=true
+[2017.03.14-09.16.16:695][520]LogSavePackage: Save=36.13ms
+[2017.03.14-09.16.16:695][520]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShipEC0F8D4F478F3C858C7D0688FD46B54C.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset'
+[2017.03.14-09.16.16:697][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset
+[2017.03.14-09.16.28:564][380]LogMaterial: Missing cached shader map for material M_Laser, compiling. 
+[2017.03.14-09.16.28:728][380]LogMaterial: Missing cached shader map for material M_Laser, compiling. 
+[2017.03.14-09.16.28:934][380]LogMaterial: Missing cached shader map for material M_Laser, compiling. 
+[2017.03.14-09.16.28:941][380]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.16.28:965][380]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.03.14-09.16.30:825][499]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2017.03.14-09.16.30:825][499]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.16.30:825][499]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.20.26:981][350]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.03.14-09.20.27:076][350]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.03.14-09.20.27:085][350]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.20.27:112][350]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.03.14-09.20.28:038][407]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2017.03.14-09.20.28:038][407]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.20.28:038][407]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.20.59:693][329]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.03.14-09.20.59:719][329]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.20.59:746][329]LogMaterial: Missing cached shader map for material M_Laser, compiling. 
+[2017.03.14-09.20.59:767][329]LogMaterial: Missing cached shader map for material M_Laser, compiling. 
+[2017.03.14-09.20.59:778][329]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.21.38:073][273]LogSavePackage: Save=14.03ms
+[2017.03.14-09.21.38:073][273]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/SpaceShooterLevelC564D78244AF7024B6C70D9B88DAC7F2.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/SpaceShooterLevel.umap'
+[2017.03.14-09.21.38:075][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/SpaceShooterLevel.umap
+[2017.03.14-09.21.41:797][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-09.21.41:797][566]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:21:41)
+[2017.03.14-09.21.41:797][566]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.21.41:798][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001196s)
+[2017.03.14-09.21.41:799][566]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.21.41:799][566]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.03.14-09.21.41:799][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002034s)
+[2017.03.14-09.21.41:858][566]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.21.41:860][566]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.21.41
+[2017.03.14-09.21.41:860][566]LogWorld: Bringing up level for play took: 0.001450
+[2017.03.14-09.21.41:861][566]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.433
+[2017.03.14-09.32.43:578][187]LogSavePackage: Save=14.86ms
+[2017.03.14-09.32.43:578][187]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/SpaceShooterLevel_Auto115C45E6F4A087AD3A6B29D8CF46C624A.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto1.umap'
+[2017.03.14-09.32.43:579][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto1.umap
+[2017.03.14-09.32.43:581][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SpaceShooterLevel' took 0.042
+[2017.03.14-09.32.43:581][187]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.042
+[2017.03.14-09.32.43:583][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_SpaceShip] ([1] browsable assets)...
+[2017.03.14-09.32.43:600][187]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_SpaceShip.BP_SpaceShip]
+[2017.03.14-09.32.43:600][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_SpaceShip]
+[2017.03.14-09.32.43:648][187]LogSavePackage: Save=44.06ms
+[2017.03.14-09.32.43:648][187]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShip_Auto14EC9B0C6412BF600BFEA88B8793A1B04.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/BP_SpaceShip_Auto1.uasset'
+[2017.03.14-09.32.43:649][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/BP_SpaceShip_Auto1.uasset
+[2017.03.14-09.32.43:649][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_Laser] ([1] browsable assets)...
+[2017.03.14-09.32.43:668][187]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_Laser.M_Laser]
+[2017.03.14-09.32.43:668][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Laser]
+[2017.03.14-09.32.43:668][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Laser" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/M_Laser_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.03.14-09.32.43:683][187]LogSavePackage: Save=10.91ms
+[2017.03.14-09.32.43:683][187]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/M_Laser_Auto18A3913C74358E86A53E8A99B31090238.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/M_Laser_Auto1.uasset'
+[2017.03.14-09.32.43:684][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/M_Laser_Auto1.uasset
+[2017.03.14-09.32.43:684][187]LogFileHelpers: Auto-saving content packages took 0.102
+[2017.03.14-09.33.13:452][694]LogClass:Warning: Type mismatch in F_Horizontal_Direction of SKEL_BP_SpaceShip_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2017.03.14-09.35.57:925][664]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-09.35.58:247][664]BlueprintEditorCompileResults: Info [1420.72] Compile of BP_SpaceShip successful! [in 321 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-09.36.05:328][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_SpaceShip" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset" SILENT=true
+[2017.03.14-09.36.05:376][364]LogSavePackage: Save=46.22ms
+[2017.03.14-09.36.05:376][364]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShipAFB29AF9497F00654D1B4E82BC6F8C82.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset'
+[2017.03.14-09.36.05:379][364]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset
+[2017.03.14-09.36.09:677][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-09.36.09:677][573]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:36:09)
+[2017.03.14-09.36.09:677][573]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.36.09:678][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001175s)
+[2017.03.14-09.36.09:679][573]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.36.09:679][573]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2017.03.14-09.36.09:679][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002019s)
+[2017.03.14-09.36.09:744][573]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.36.09:746][573]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.36.09
+[2017.03.14-09.36.09:746][573]LogWorld: Bringing up level for play took: 0.001488
+[2017.03.14-09.36.09:747][573]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.554
+[2017.03.14-09.36.15:479][181]LogEditorViewport: Clicking on Actor (LMB): BP_SpaceShip_C (BP_SpaceShip)
+[2017.03.14-09.36.28:337][246]Cmd: TRANSACTION UNDO
+[2017.03.14-09.36.28:337][246]LogEditorTransaction: Undo Set actor rotation
+[2017.03.14-09.36.30:088][346]Cmd: TRANSACTION UNDO
+[2017.03.14-09.36.30:088][346]LogEditorTransaction: Undo Set actor rotation
+[2017.03.14-09.37.06:297][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_SpaceShip" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset" SILENT=true
+[2017.03.14-09.37.06:344][ 38]LogSavePackage: Save=44.74ms
+[2017.03.14-09.37.06:344][ 38]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShipF452394949FABC310C942F82E14E2629.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset'
+[2017.03.14-09.37.06:346][ 38]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset
+[2017.03.14-09.37.06:890][ 75]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-09.37.07:018][ 75]BlueprintEditorCompileResults: Info [1489.49] Compile of BP_SpaceShip successful! [in 127 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-09.37.08:437][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-09.37.08:437][156]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:37:08)
+[2017.03.14-09.37.08:437][156]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.37.08:438][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001254s)
+[2017.03.14-09.37.08:439][156]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.37.08:439][156]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.03.14-09.37.08:439][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002011s)
+[2017.03.14-09.37.08:551][156]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.37.08:553][156]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.37.08
+[2017.03.14-09.37.08:554][156]LogWorld: Bringing up level for play took: 0.001753
+[2017.03.14-09.37.08:555][156]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.254
+[2017.03.14-09.37.19:918][205]Cmd: SELECT NONE
+[2017.03.14-09.37.21:362][367]LogEditorViewport: Clicking on Actor (LMB): BP_SpaceShip_C (BP_SpaceShip)
+[2017.03.14-09.37.27:269][786]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.14-09.37.27:280][786]LogPlayLevel: [PlayLevel] Compiling BP_SpaceShip before play...
+[2017.03.14-09.37.27:373][786]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2017.03.14-09.37.27:390][786]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:37:27)
+[2017.03.14-09.37.27:390][786]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.37.27:391][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001177s)
+[2017.03.14-09.37.27:392][786]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.37.27:392][786]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2017.03.14-09.37.27:392][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.001941s)
+[2017.03.14-09.37.27:503][786]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.37.27:505][786]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.37.27
+[2017.03.14-09.37.27:505][786]LogWorld: Bringing up level for play took: 0.001463
+[2017.03.14-09.37.27:506][786]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 1.205
+[2017.03.14-09.37.59:631][566]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.14-09.37.59:642][566]LogPlayLevel: [PlayLevel] Compiling BP_SpaceShip before play...
+[2017.03.14-09.37.59:731][566]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (1 blueprints)
+[2017.03.14-09.37.59:746][566]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:37:59)
+[2017.03.14-09.37.59:746][566]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.37.59:747][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001191s)
+[2017.03.14-09.37.59:747][566]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.37.59:747][566]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2017.03.14-09.37.59:748][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.001913s)
+[2017.03.14-09.37.59:850][566]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.37.59:852][566]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.37.59
+[2017.03.14-09.37.59:852][566]LogWorld: Bringing up level for play took: 0.001397
+[2017.03.14-09.37.59:853][566]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.448
+[2017.03.14-09.38.36:941][397]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-09.38.37:401][397]BlueprintEditorCompileResults: Info [1579.87] Compile of BP_SpaceShip successful! [in 459 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-09.38.48:657][129]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-09.38.48:761][129]BlueprintEditorCompileResults: Info [1591.23] Compile of BP_SpaceShip successful! [in 103 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-09.38.50:860][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_SpaceShip" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset" SILENT=true
+[2017.03.14-09.38.50:909][267]LogSavePackage: Save=46.07ms
+[2017.03.14-09.38.50:909][267]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShip61286E2B4251B0DA7FF611877112157E.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset'
+[2017.03.14-09.38.50:911][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset
+[2017.03.14-09.39.02:922][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-09.39.02:922][104]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:39:02)
+[2017.03.14-09.39.02:922][104]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.39.02:923][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001141s)
+[2017.03.14-09.39.02:924][104]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.39.02:924][104]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2017.03.14-09.39.02:924][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.001939s)
+[2017.03.14-09.39.03:039][104]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.39.03:043][104]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.39.03
+[2017.03.14-09.39.03:043][104]LogWorld: Bringing up level for play took: 0.002835
+[2017.03.14-09.39.03:046][104]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.743
+[2017.03.14-09.40.45:346][ 83]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-09.40.45:453][ 83]BlueprintEditorCompileResults: Info [1707.92] Compile of BP_SpaceShip successful! [in 107 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-09.42.20:849][520]LogRenderer: Reallocating scene render targets to support 904x604 (Frame:171027).
+[2017.03.14-09.42.23:115][596]LogRenderer: Reallocating scene render targets to support 904x760 (Frame:171265).
+[2017.03.14-09.43.21:831][890]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.14-09.43.58:252][639]BlueprintLog: New page: Compile BP_Laser
+[2017.03.14-09.43.58:497][639]BlueprintEditorCompileResults: Info [1900.96] Compile of BP_Laser successful! [in 244 ms] (/Game/BP_Laser.BP_Laser)
+[2017.03.14-09.43.58:871][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Laser" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset" SILENT=true
+[2017.03.14-09.43.58:890][650]LogSavePackage: Save=17.97ms
+[2017.03.14-09.43.58:890][650]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_Laser521901D8455EACC42BDCFFA00997F16E.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset'
+[2017.03.14-09.43.58:893][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset
+[2017.03.14-09.44.01:461][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_SpaceShip" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset" SILENT=true
+[2017.03.14-09.44.01:512][814]LogSavePackage: Save=47.49ms
+[2017.03.14-09.44.01:512][814]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShip5D29630643FFFE1D9E64559D8B156D1F.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset'
+[2017.03.14-09.44.01:515][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset
+[2017.03.14-09.44.19:435][ 65]LogEditorTransaction: Undo Modify Component(s)
+[2017.03.14-09.44.27:327][649]BlueprintLog: New page: Compile BP_Laser
+[2017.03.14-09.44.27:434][649]BlueprintEditorCompileResults: Info [1929.90] Compile of BP_Laser successful! [in 107 ms] (/Game/BP_Laser.BP_Laser)
+[2017.03.14-09.44.27:878][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Laser" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset" SILENT=true
+[2017.03.14-09.44.27:897][673]LogSavePackage: Save=15.80ms
+[2017.03.14-09.44.27:897][673]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_LaserE799FEB04CF2DC63EE738FB511DACC3A.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset'
+[2017.03.14-09.44.27:899][673]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset
+[2017.03.14-09.44.30:144][785]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.14-09.44.44:038][716]LogTexture:Display: Building textures: T_Lamp_M (AutoDXT)
+[2017.03.14-09.44.44:869][716]LogTexture:Display: Building textures: T_Lamp_N (BC5)
+[2017.03.14-09.45.26:443][184]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.14-09.45.26:448][184]LogPlayLevel: [PlayLevel] Compiling BP_Laser before play...
+[2017.03.14-09.45.26:514][184]LogPlayLevel: PlayLevel: Blueprint regeneration took 71 ms (1 blueprints)
+[2017.03.14-09.45.26:531][184]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:45:26)
+[2017.03.14-09.45.26:531][184]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.45.26:532][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001346s)
+[2017.03.14-09.45.26:533][184]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.45.26:533][184]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.03.14-09.45.26:533][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002183s)
+[2017.03.14-09.45.26:597][184]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.45.26:599][184]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.45.26
+[2017.03.14-09.45.26:600][184]LogWorld: Bringing up level for play took: 0.001730
+[2017.03.14-09.45.26:601][184]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.295
+[2017.03.14-09.46.23:741][842]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.46.23:808][842]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.46.23:815][842]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.46.24:716][890]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.46.24:716][890]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.46.24:716][890]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.46.47:557][905]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.46.47:563][905]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.46.47:564][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.03.14-09.46.48:501][966]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.46.48:501][966]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.46.48:501][966]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.46.59:986][924]0.098271
+[2017.03.14-09.47.00:033][928]0.093170
+[2017.03.14-09.47.00:045][929]0.083982
+[2017.03.14-09.47.00:057][930]0.079331
+[2017.03.14-09.47.00:067][931]0.065881
+[2017.03.14-09.47.00:078][932]0.063362
+[2017.03.14-09.47.00:090][933]0.062500
+[2017.03.14-09.47.00:101][934]0.053115
+[2017.03.14-09.47.00:112][935]0.044194
+[2017.03.14-09.47.00:124][936]0.056095
+[2017.03.14-09.47.00:135][937]0.083333
+[2017.03.14-09.47.00:146][938]0.094327
+[2017.03.14-09.47.00:157][939]0.106230
+[2017.03.14-09.47.00:167][940]0.116462
+[2017.03.14-09.47.00:189][942]0.118768
+[2017.03.14-09.47.00:200][943]0.131762
+[2017.03.14-09.47.00:211][944]0.145087
+[2017.03.14-09.47.00:232][946]0.163047
+[2017.03.14-09.47.00:243][947]0.191225
+[2017.03.14-09.47.00:253][948]0.202255
+[2017.03.14-09.47.00:264][949]0.245842
+[2017.03.14-09.47.00:275][950]0.265574
+[2017.03.14-09.47.00:286][951]0.273425
+[2017.03.14-09.47.00:297][952]0.302083
+[2017.03.14-09.47.00:308][953]0.309359
+[2017.03.14-09.47.00:319][954]0.338822
+[2017.03.14-09.47.00:330][955]0.346266
+[2017.03.14-09.47.00:340][956]0.353860
+[2017.03.14-09.47.00:351][957]0.376300
+[2017.03.14-09.47.00:383][960]0.392115
+[2017.03.14-09.47.00:479][969]0.413530
+[2017.03.14-09.47.00:490][970]0.421457
+[2017.03.14-09.47.00:500][971]0.429490
+[2017.03.14-09.47.00:511][972]0.450814
+[2017.03.14-09.47.00:522][973]0.458807
+[2017.03.14-09.47.00:533][974]0.488141
+[2017.03.14-09.47.00:543][975]0.540162
+[2017.03.14-09.47.00:554][976]0.562886
+[2017.03.14-09.47.00:565][977]0.585654
+[2017.03.14-09.47.00:576][978]0.631305
+[2017.03.14-09.47.00:587][979]0.637718
+[2017.03.14-09.47.00:598][980]0.645917
+[2017.03.14-09.47.00:608][981]0.660535
+[2017.03.14-09.47.00:620][982]0.668779
+[2017.03.14-09.47.00:715][991]0.683384
+[2017.03.14-09.47.00:737][993]0.697994
+[2017.03.14-09.47.00:747][994]0.706262
+[2017.03.14-09.47.00:769][996]0.735464
+[2017.03.14-09.47.00:779][997]0.743753
+[2017.03.14-09.47.00:790][998]0.752095
+[2017.03.14-09.47.00:791][998]0.766669
+[2017.03.14-09.47.00:801][999]0.775045
+[2017.03.14-09.47.00:812][  0]0.791941
+[2017.03.14-09.47.00:823][  1]0.814967
+[2017.03.14-09.47.00:834][  2]0.838008
+[2017.03.14-09.47.00:844][  3]0.846574
+[2017.03.14-09.47.00:855][  4]0.869651
+[2017.03.14-09.47.00:865][  5]0.878280
+[2017.03.14-09.47.00:876][  6]0.886947
+[2017.03.14-09.47.00:887][  7]0.904392
+[2017.03.14-09.47.00:898][  8]0.918795
+[2017.03.14-09.47.00:908][  9]0.927551
+[2017.03.14-09.47.00:919][ 10]0.941946
+[2017.03.14-09.47.00:940][ 12]0.950717
+[2017.03.14-09.47.00:951][ 13]0.959521
+[2017.03.14-09.47.00:994][ 17]0.965103
+[2017.03.14-09.47.01:036][ 21]0.973889
+[2017.03.14-09.47.01:047][ 22]0.997066
+[2017.03.14-09.47.01:079][ 25]1.005896
+[2017.03.14-09.47.01:217][ 38]1.004007
+[2017.03.14-09.47.01:227][ 39]1.012991
+[2017.03.14-09.47.01:238][ 40]1.007782
+[2017.03.14-09.47.01:249][ 41]0.997610
+[2017.03.14-09.47.05:748][407]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.47.05:754][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.47.05:782][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.03.14-09.47.06:494][449]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.47.06:494][449]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.47.06:494][449]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.47.26:285][ 85]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.47.26:292][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.47.26:334][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.03.14-09.47.27:056][129]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.47.27:056][129]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.47.27:056][129]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.47.30:683][391]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.47.30:690][391]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.47.30:717][391]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.03.14-09.47.31:435][435]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.47.31:435][435]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.47.31:435][435]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.47.56:373][608]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.47.56:379][608]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.47.56:381][608]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.47.56:387][608]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.47.56:412][608]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.03.14-09.47.57:337][657]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.47.57:337][657]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.47.57:337][657]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.48.05:062][275]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.48.05:069][275]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.48.05:811][327]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.48.05:811][327]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.48.05:811][327]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.48.09:088][613]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.48.09:094][613]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.48.09:849][663]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.48.09:849][663]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.48.09:849][663]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.48.11:099][756]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.48.11:105][756]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.48.11:829][804]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.48.11:829][804]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.48.11:829][804]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.48.14:353][ 28]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.48.14:360][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.48.15:115][ 69]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.48.15:115][ 69]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.48.15:115][ 69]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.48.19:295][433]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.48.19:302][433]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.48.20:024][482]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.48.20:024][482]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.48.20:024][482]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.48.24:973][864]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.48.24:979][864]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.48.25:699][905]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.48.25:699][905]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.48.25:699][905]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.48.33:299][604]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.48.33:306][604]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.48.34:041][656]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.48.34:041][656]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.48.34:041][656]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.48.38:874][ 86]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.48.38:881][ 86]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.48.39:581][126]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.48.39:581][126]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.48.39:581][126]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.49.17:982][584]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.49.17:989][584]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.49.18:944][645]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.49.18:944][645]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.49.18:944][645]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.49.31:321][709]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.49.31:327][709]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.49.31:330][709]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.49.31:336][709]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.49.32:059][754]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.49.32:059][754]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.49.32:059][754]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.49.46:232][868]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.49.46:238][868]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.49.46:240][868]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.49.46:247][868]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.49.46:948][907]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.49.46:948][907]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.49.46:948][907]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.49.48:578][ 24]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.49.48:584][ 24]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.49.49:351][ 66]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2017.03.14-09.49.49:351][ 66]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.49.49:351][ 66]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.49.53:814][382]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.49.53:820][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.49.54:523][420]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2017.03.14-09.49.54:523][420]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.49.54:523][420]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-09.50.26:418][270]LogMaterialEditor: Saving and Compiling material M_LaserGreen
+[2017.03.14-09.50.26:869][270]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.50.26:885][270]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.50.26:903][270]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.50.26:929][270]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-09.50.26:948][270]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-09.50.29:131][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_LaserGreen" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_LaserGreen.uasset" SILENT=true
+[2017.03.14-09.50.29:143][270]LogSavePackage: Save=11.02ms
+[2017.03.14-09.50.29:144][270]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/M_LaserGreen078549FE4B0981A7E0D63686C2124B0B.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_LaserGreen.uasset'
+[2017.03.14-09.50.29:145][270]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_LaserGreen.uasset
+[2017.03.14-09.50.29:148][270]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2017.03.14-09.50.29:148][270]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-09.50.29:148][270]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.03.14-09.52.14:838][731]LogSavePackage: Save=15.14ms
+[2017.03.14-09.52.14:838][731]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/SpaceShooterLevel_Auto2E087CC494F42AAFE4B3782A864E46B0F.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto2.umap'
+[2017.03.14-09.52.14:839][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto2.umap
+[2017.03.14-09.52.14:841][731]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SpaceShooterLevel' took 0.074
+[2017.03.14-09.52.14:841][731]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.074
+[2017.03.14-09.52.14:843][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_Laser] ([1] browsable assets)...
+[2017.03.14-09.52.14:857][731]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Laser.BP_Laser]
+[2017.03.14-09.52.14:857][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Laser]
+[2017.03.14-09.52.14:857][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Laser" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/BP_Laser_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.03.14-09.52.14:877][731]LogSavePackage: Save=16.43ms
+[2017.03.14-09.52.14:877][731]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_Laser_Auto280CA0F7F449C8D37D47C20AE7D3F038C.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/BP_Laser_Auto2.uasset'
+[2017.03.14-09.52.14:878][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/BP_Laser_Auto2.uasset
+[2017.03.14-09.52.14:878][731]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.03.14-09.52.58:674][519]BlueprintLog: New page: Compile BP_Laser
+[2017.03.14-09.52.58:760][519]BlueprintEditorCompileResults: Info [2441.22] Compile of BP_Laser successful! [in 85 ms] (/Game/BP_Laser.BP_Laser)
+[2017.03.14-09.55.24:587][131]BlueprintLog: New page: Compile BP_Laser
+[2017.03.14-09.55.24:887][131]BlueprintEditorCompileResults: Info [2587.35] Compile of BP_Laser successful! [in 299 ms] (/Game/BP_Laser.BP_Laser)
+[2017.03.14-09.55.26:962][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-09.55.26:962][237]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:55:26)
+[2017.03.14-09.55.26:962][237]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.55.26:963][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001295s)
+[2017.03.14-09.55.26:964][237]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.55.26:964][237]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2017.03.14-09.55.26:964][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002082s)
+[2017.03.14-09.55.27:026][237]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.55.27:028][237]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.55.27
+[2017.03.14-09.55.27:029][237]LogWorld: Bringing up level for play took: 0.001675
+[2017.03.14-09.55.27:030][237]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.719
+[2017.03.14-09.56.07:519][900]BlueprintLog: New page: Compile BP_Laser
+[2017.03.14-09.56.07:897][900]BlueprintEditorCompileResults: Info [2630.36] Compile of BP_Laser successful! [in 378 ms] (/Game/BP_Laser.BP_Laser)
+[2017.03.14-09.57.55:002][121]BlueprintLog: New page: Compile BP_Laser
+[2017.03.14-09.57.55:130][121]BlueprintEditorCompileResults: Info [2737.59] Compile of BP_Laser successful! [in 127 ms] (/Game/BP_Laser.BP_Laser)
+[2017.03.14-09.57.59:045][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-09.57.59:045][280]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:57:59)
+[2017.03.14-09.57.59:045][280]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.57.59:046][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001301s)
+[2017.03.14-09.57.59:047][280]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.57.59:047][280]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2017.03.14-09.57.59:047][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002098s)
+[2017.03.14-09.57.59:112][280]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.57.59:114][280]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.57.59
+[2017.03.14-09.57.59:115][280]LogWorld: Bringing up level for play took: 0.001749
+[2017.03.14-09.57.59:116][280]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.804
+[2017.03.14-09.58.14:207][484]BlueprintLog: New page: Compile BP_Laser
+[2017.03.14-09.58.14:299][484]BlueprintEditorCompileResults: Info [2756.76] Compile of BP_Laser successful! [in 92 ms] (/Game/BP_Laser.BP_Laser)
+[2017.03.14-09.58.18:947][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-09.58.18:947][690]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:58:18)
+[2017.03.14-09.58.18:948][690]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.58.18:949][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001277s)
+[2017.03.14-09.58.18:949][690]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.58.18:949][690]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2017.03.14-09.58.18:950][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.001991s)
+[2017.03.14-09.58.19:013][690]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.58.19:015][690]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.58.19
+[2017.03.14-09.58.19:015][690]LogWorld: Bringing up level for play took: 0.001627
+[2017.03.14-09.58.19:016][690]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.705
+[2017.03.14-09.58.25:419][237]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.14-09.58.25:427][237]LogPlayLevel: [PlayLevel] Compiling BP_Laser before play...
+[2017.03.14-09.58.25:501][237]LogPlayLevel: PlayLevel: Blueprint regeneration took 82 ms (1 blueprints)
+[2017.03.14-09.58.25:517][237]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 09:58:25)
+[2017.03.14-09.58.25:517][237]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-09.58.25:518][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001315s)
+[2017.03.14-09.58.25:519][237]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-09.58.25:519][237]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2017.03.14-09.58.25:519][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002062s)
+[2017.03.14-09.58.25:583][237]LogWorld: Game class is 'GameMode'
+[2017.03.14-09.58.25:585][237]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-09.58.25
+[2017.03.14-09.58.25:585][237]LogWorld: Bringing up level for play took: 0.001638
+[2017.03.14-09.58.25:586][237]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.725
+[2017.03.14-09.58.32:265][729]BlueprintLog: New page: Compile BP_Laser
+[2017.03.14-09.58.32:356][729]BlueprintEditorCompileResults: Info [2774.82] Compile of BP_Laser successful! [in 90 ms] (/Game/BP_Laser.BP_Laser)
+[2017.03.14-09.58.32:806][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Laser" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset" SILENT=true
+[2017.03.14-09.58.32:832][755]LogSavePackage: Save=22.22ms
+[2017.03.14-09.58.32:832][755]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_Laser1BEDD8BB4FDC93D2EE995DA94C26D9F0.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset'
+[2017.03.14-09.58.32:834][755]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset
+[2017.03.14-09.58.53:691][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Laser" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset" SILENT=true
+[2017.03.14-09.58.53:710][570]LogSavePackage: Save=15.66ms
+[2017.03.14-09.58.53:710][570]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_Laser86AD16994675DAD2042CC6B5D3F4688B.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset'
+[2017.03.14-09.58.53:712][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_Laser.uasset
+[2017.03.14-10.00.10:171][887]LogEditorViewport: Clicking on Actor (LMB): Bp_Asteroid_C (Bp_Asteroid)
+[2017.03.14-10.00.17:331][359]LogEditorViewport: Clicking on Actor (LMB): BP_SpaceShip_C (BP_SpaceShip)
+[2017.03.14-10.00.19:622][542]LogEditorViewport: Clicking on Actor (LMB): Bp_Asteroid_C (Bp_Asteroid)
+[2017.03.14-10.00.31:218][420]LogEditorViewport: Clicking on Actor (LMB): BP_SpaceShip_C (BP_SpaceShip)
+[2017.03.14-10.00.33:232][578]LogEditorViewport: Clicking on Actor (LMB): Bp_Asteroid_C (Bp_Asteroid)
+[2017.03.14-10.00.40:685][111]LogEditorViewport: Clicking on Actor (LMB): BP_SpaceShip_C (BP_SpaceShip)
+[2017.03.14-10.00.42:862][290]LogEditorViewport: Clicking on Actor (LMB): Bp_Asteroid_C (Bp_Asteroid)
+[2017.03.14-10.00.49:991][837]LogEditorViewport: Clicking on Actor (LMB): BP_Laser_C (BP_Laser)
+[2017.03.14-10.00.58:780][537]LogEditorViewport: Clicking on Actor (LMB): Bp_Asteroid_C (Bp_Asteroid)
+[2017.03.14-10.01.12:507][318]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.14-10.01.12:512][318]LogPlayLevel: [PlayLevel] Compiling Bp_Asteroid before play...
+[2017.03.14-10.01.12:892][318]LogPlayLevel: PlayLevel: Blueprint regeneration took 384 ms (1 blueprints)
+[2017.03.14-10.01.12:945][318]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:01:12)
+[2017.03.14-10.01.12:945][318]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.01.12:947][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001452s)
+[2017.03.14-10.01.12:947][318]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.01.12:947][318]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.03.14-10.01.12:947][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002250s)
+[2017.03.14-10.01.13:015][318]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.01.13:018][318]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.01.13
+[2017.03.14-10.01.13:018][318]LogWorld: Bringing up level for play took: 0.001964
+[2017.03.14-10.01.13:019][318]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.706
+[2017.03.14-10.01.18:478][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp_Asteroid" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset" SILENT=true
+[2017.03.14-10.01.18:504][783]LogSavePackage: Save=24.50ms
+[2017.03.14-10.01.18:504][783]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Bp_Asteroid333E12D24595CAA5DEA61F86A8EF729D.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset'
+[2017.03.14-10.01.18:506][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset
+[2017.03.14-10.01.52:541][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_32 or K2Node_CallFunction /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CallFunction_32
+[2017.03.14-10.01.52:541][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_32 or K2Node_CallFunction /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CallFunction_32
+[2017.03.14-10.01.52:541][256]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CallFunction_32.EdGraphPin_135) from referencer (EdGraphPin /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CallFunction_0.EdGraphPin_12).  Import failed...
+[2017.03.14-10.01.52:541][256]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_32.EdGraphPin_135''
+[2017.03.14-10.01.52:542][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1 or K2Node_CallFunction /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CallFunction_1
+[2017.03.14-10.01.52:542][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_1 or K2Node_CallFunction /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CallFunction_1
+[2017.03.14-10.01.52:542][256]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CallFunction_1.EdGraphPin_18) from referencer (EdGraphPin /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_VariableGet_120.EdGraphPin_16).  Import failed...
+[2017.03.14-10.01.52:542][256]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_1.EdGraphPin_18''
+[2017.03.14-10.01.52:542][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_32 or K2Node_CallFunction /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CallFunction_32
+[2017.03.14-10.01.52:542][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_32 or K2Node_CallFunction /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CallFunction_32
+[2017.03.14-10.01.52:542][256]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CallFunction_32.EdGraphPin_133) from referencer (EdGraphPin /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CallFunction_1.EdGraphPin_19).  Import failed...
+[2017.03.14-10.01.52:542][256]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_32.EdGraphPin_133''
+[2017.03.14-10.01.52:542][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/BP_SpaceShip.BP_SpaceShip:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_0
+[2017.03.14-10.01.52:542][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/BP_SpaceShip.BP_SpaceShip:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2017.03.14-10.01.52:542][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/BP_SpaceShip.BP_SpaceShip:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2017.03.14-10.01.52:542][256]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0.EdGraphPin_137) from referencer (EdGraphPin /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_VariableGet_121.EdGraphPin_130).  Import failed...
+[2017.03.14-10.01.52:542][256]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_0.EdGraphPin_137''
+[2017.03.14-10.01.52:542][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/BP_SpaceShip.BP_SpaceShip:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_0
+[2017.03.14-10.01.52:543][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/BP_SpaceShip.BP_SpaceShip:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2017.03.14-10.01.52:543][256]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/BP_SpaceShip.BP_SpaceShip:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2017.03.14-10.01.52:543][256]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/BP_Laser.BP_Laser:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0.EdGraphPin_139) from referencer (EdGraphPin /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CallFunction_32.EdGraphPin_134).  Import failed...
+[2017.03.14-10.01.52:543][256]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_0.EdGraphPin_139''
+[2017.03.14-10.01.52:544][256]LogBlueprint:Warning: [Bp_Asteroid] CreatePinForVariable: 'F_Speed' variable not found. Base class was probably changed.
+[2017.03.14-10.02.22:476][371]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.02.22:872][371]BlueprintEditorCompileResults: Info [3005.33] Compile of Bp_Asteroid successful! [in 396 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.03.01:202][258]LogSavePackage: Save=16.15ms
+[2017.03.14-10.03.01:202][258]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/SpaceShooterLevel_Auto3CD63B9D74AC314C7C0EB4C897C1E8ECE.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto3.umap'
+[2017.03.14-10.03.01:203][258]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto3.umap
+[2017.03.14-10.03.01:205][258]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SpaceShooterLevel' took 0.040
+[2017.03.14-10.03.01:205][258]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.040
+[2017.03.14-10.03.01:207][258]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bp_Asteroid] ([1] browsable assets)...
+[2017.03.14-10.03.01:222][258]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bp_Asteroid.Bp_Asteroid]
+[2017.03.14-10.03.01:222][258]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bp_Asteroid]
+[2017.03.14-10.03.01:249][258]LogSavePackage: Save=20.96ms
+[2017.03.14-10.03.01:249][258]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Bp_Asteroid_Auto390C317E54C54D868AE380A989226A8D3.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/Bp_Asteroid_Auto3.uasset'
+[2017.03.14-10.03.01:250][258]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/Bp_Asteroid_Auto3.uasset
+[2017.03.14-10.03.01:250][258]LogFileHelpers: Auto-saving content packages took 0.044
+[2017.03.14-10.03.40:368][202]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.03.40:879][202]BlueprintEditorCompileResults: Info [3083.34] Compile of Bp_Asteroid successful! [in 511 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.03.41:504][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp_Asteroid" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset" SILENT=true
+[2017.03.14-10.03.41:528][236]LogSavePackage: Save=21.54ms
+[2017.03.14-10.03.41:528][236]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Bp_Asteroid5CB9268C44A7E8407FBC1E8ED262C1A4.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset'
+[2017.03.14-10.03.41:531][236]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset
+[2017.03.14-10.03.44:007][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.03.44:007][363]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:03:44)
+[2017.03.14-10.03.44:007][363]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.03.44:008][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001425s)
+[2017.03.14-10.03.44:009][363]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.03.44:009][363]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2017.03.14-10.03.44:009][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002231s)
+[2017.03.14-10.03.44:078][363]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.03.44:081][363]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.03.44
+[2017.03.14-10.03.44:081][363]LogWorld: Bringing up level for play took: 0.001851
+[2017.03.14-10.03.44:082][363]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.233
+[2017.03.14-10.04.41:357][909]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.04.41:454][909]BlueprintEditorCompileResults: Info [3143.91] Compile of Bp_Asteroid successful! [in 97 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.04.45:234][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.04.45:234][116]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:04:45)
+[2017.03.14-10.04.45:234][116]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.04.45:236][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001431s)
+[2017.03.14-10.04.45:236][116]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.04.45:237][116]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2017.03.14-10.04.45:237][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002186s)
+[2017.03.14-10.04.45:304][116]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.04.45:306][116]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.04.45
+[2017.03.14-10.04.45:306][116]LogWorld: Bringing up level for play took: 0.001709
+[2017.03.14-10.04.45:307][116]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.993
+[2017.03.14-10.04.45:600][146]LogBlueprintUserMessages: [Bp_Asteroid_214] BP_Laser
+[2017.03.14-10.04.49:628][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.04.49:628][547]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:04:49)
+[2017.03.14-10.04.49:628][547]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.04.49:630][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001514s)
+[2017.03.14-10.04.49:630][547]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.04.49:630][547]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.03.14-10.04.49:631][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002257s)
+[2017.03.14-10.04.49:695][547]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.04.49:697][547]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.04.49
+[2017.03.14-10.04.49:698][547]LogWorld: Bringing up level for play took: 0.001708
+[2017.03.14-10.04.49:699][547]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.616
+[2017.03.14-10.04.49:987][579]LogBlueprintUserMessages: [Bp_Asteroid_214] BP_Laser
+[2017.03.14-10.06.08:947][105]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.06.09:047][105]BlueprintEditorCompileResults: Info [3231.46] Compile of Bp_Asteroid successful! [in 99 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.06.12:159][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.06.12:159][227]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:06:12)
+[2017.03.14-10.06.12:159][227]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.06.12:161][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001445s)
+[2017.03.14-10.06.12:161][227]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.06.12:161][227]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.03.14-10.06.12:162][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002273s)
+[2017.03.14-10.06.12:228][227]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.06.12:231][227]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.06.12
+[2017.03.14-10.06.12:231][227]LogWorld: Bringing up level for play took: 0.001872
+[2017.03.14-10.06.12:232][227]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.13
+[2017.03.14-10.09.59:024][606]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_46 or K2Node_CallFunction /Game/Bp_Asteroid.Bp_Asteroid:EventGraph.K2Node_CallFunction_46
+[2017.03.14-10.09.59:024][606]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_46.EdGraphPin_134''
+[2017.03.14-10.10.47:694][274]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.10.47:805][274]BlueprintEditorCompileResults: Info [3510.21] Compile of Bp_Asteroid successful! [in 110 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.11.11:591][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp_Asteroid" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset" SILENT=true
+[2017.03.14-10.11.11:623][144]LogSavePackage: Save=27.57ms
+[2017.03.14-10.11.11:623][144]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Bp_Asteroid3B1FB4CA4A7FCCEAA564DB8E877C663A.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset'
+[2017.03.14-10.11.11:625][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset
+[2017.03.14-10.11.37:521][929]LogTexture:Display: Building textures: T_Smoke_SubUV (AutoDXT)
+[2017.03.14-10.11.38:959][929]LogTexture:Display: Building textures: T_Smoke_Tiled_D (AutoDXT)
+[2017.03.14-10.11.39:096][929]LogTexture:Display: Building textures: T_Explosion_SubUV (AutoDXT)
+[2017.03.14-10.11.39:868][929]LogTexture:Display: Building textures: T_Burst_M (AutoDXT)
+[2017.03.14-10.11.39:957][929]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.03.14-10.11.42:198][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.11.42:198][ 72]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:11:42)
+[2017.03.14-10.11.42:198][ 72]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.11.42:200][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001569s)
+[2017.03.14-10.11.42:200][ 72]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.11.42:201][ 72]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2017.03.14-10.11.42:201][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002467s)
+[2017.03.14-10.11.42:293][ 72]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.11.42:296][ 72]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.11.42
+[2017.03.14-10.11.42:297][ 72]LogWorld: Bringing up level for play took: 0.002941
+[2017.03.14-10.11.42:298][ 72]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.067
+[2017.03.14-10.11.46:912][493]Cmd: DELETE
+[2017.03.14-10.11.46:912][493]Cmd: ACTOR DELETE
+[2017.03.14-10.11.46:912][493]LogEditorActor: Deleted Actor: Emitter
+[2017.03.14-10.11.46:928][493]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.03.14-10.12.30:614][120]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.14-10.14.26:780][934]LogEditorTransaction: Undo Move Nodes
+[2017.03.14-10.14.26:802][934]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-10.14.26:808][934]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-10.14.27:705][968]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2017.03.14-10.14.27:705][968]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.03.14-10.14.27:705][968]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.03.14-10.15.16:820][123]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.15.16:921][123]BlueprintEditorCompileResults: Info [3779.33] Compile of Bp_Asteroid successful! [in 100 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.15.17:934][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp_Asteroid" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset" SILENT=true
+[2017.03.14-10.15.17:967][189]LogSavePackage: Save=30.14ms
+[2017.03.14-10.15.17:967][189]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Bp_AsteroidE1CDFE0343D8A61BF533B888B71DE920.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset'
+[2017.03.14-10.15.17:970][189]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset
+[2017.03.14-10.15.21:384][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.15.21:384][406]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:15:21)
+[2017.03.14-10.15.21:384][406]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.15.21:386][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001486s)
+[2017.03.14-10.15.21:386][406]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.15.21:387][406]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2017.03.14-10.15.21:387][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002300s)
+[2017.03.14-10.15.21:463][406]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.15.21:465][406]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.15.21
+[2017.03.14-10.15.21:466][406]LogWorld: Bringing up level for play took: 0.001806
+[2017.03.14-10.15.21:467][406]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.901
+[2017.03.14-10.16.33:640][581]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.14-10.17.18:601][976]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-10.17.18:733][976]BlueprintEditorCompileResults: Info [3901.14] Compile of BP_SpaceShip successful! [in 131 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-10.17.19:656][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_SpaceShip" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset" SILENT=true
+[2017.03.14-10.17.19:707][ 30]LogSavePackage: Save=46.44ms
+[2017.03.14-10.17.19:707][ 30]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShipED2F1CC443E113BC6568E4BE615A6859.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset'
+[2017.03.14-10.17.19:709][ 30]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset
+[2017.03.14-10.17.22:725][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.17.22:725][217]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:17:22)
+[2017.03.14-10.17.22:725][217]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.17.22:727][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001429s)
+[2017.03.14-10.17.22:727][217]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.17.22:727][217]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.03.14-10.17.22:727][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002266s)
+[2017.03.14-10.17.22:793][217]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.17.22:795][217]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.17.22
+[2017.03.14-10.17.22:795][217]LogWorld: Bringing up level for play took: 0.001715
+[2017.03.14-10.17.22:796][217]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.428
+[2017.03.14-10.20.39:907][734]BlueprintLog: New page: Compile BP_AsteroidSpawner
+[2017.03.14-10.20.40:093][734]BlueprintEditorCompileResults: Info [4102.50] Compile of BP_AsteroidSpawner successful! [in 186 ms] (/Game/BP_AsteroidSpawner.BP_AsteroidSpawner)
+[2017.03.14-10.20.40:590][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_AsteroidSpawner" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_AsteroidSpawner.uasset" SILENT=true
+[2017.03.14-10.20.40:611][742]LogSavePackage: Save=17.74ms
+[2017.03.14-10.20.40:611][742]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_AsteroidSpawnerFD28E3EA44A5125CF8242CB43086C092.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_AsteroidSpawner.uasset'
+[2017.03.14-10.20.40:615][742]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_AsteroidSpawner.uasset
+[2017.03.14-10.21.29:983][731]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.14-10.23.33:320][209]BlueprintLog: New page: Compile BP_AsteroidSpawner
+[2017.03.14-10.23.33:488][209]BlueprintEditorCompileResults: Info [4275.89] Compile of BP_AsteroidSpawner successful! [in 167 ms] (/Game/BP_AsteroidSpawner.BP_AsteroidSpawner)
+[2017.03.14-10.23.41:768][ 18]BlueprintLog: New page: Compile BP_AsteroidSpawner
+[2017.03.14-10.23.41:859][ 18]BlueprintEditorCompileResults: Info [4284.26] Compile of BP_AsteroidSpawner successful! [in 91 ms] (/Game/BP_AsteroidSpawner.BP_AsteroidSpawner)
+[2017.03.14-10.24.09:699][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.24.09:699][495]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:24:09)
+[2017.03.14-10.24.09:699][495]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.24.09:701][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001635s)
+[2017.03.14-10.24.09:702][495]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.24.09:702][495]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2017.03.14-10.24.09:702][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002665s)
+[2017.03.14-10.24.09:769][495]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.24.09:771][495]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.24.09
+[2017.03.14-10.24.09:771][495]LogWorld: Bringing up level for play took: 0.001825
+[2017.03.14-10.24.09:772][495]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.599
+[2017.03.14-10.24.20:012][529]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.24.20:012][529]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:24:20)
+[2017.03.14-10.24.20:013][529]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.24.20:014][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001532s)
+[2017.03.14-10.24.20:015][529]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.24.20:015][529]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.03.14-10.24.20:015][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002267s)
+[2017.03.14-10.24.20:076][529]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.24.20:078][529]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.24.20
+[2017.03.14-10.24.20:078][529]LogWorld: Bringing up level for play took: 0.001783
+[2017.03.14-10.24.20:079][529]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.293
+[2017.03.14-10.25.02:970][521]LogSavePackage: Save=17.52ms
+[2017.03.14-10.25.02:970][521]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/SpaceShooterLevelCB6C14A3454910D19B4CB4943DC519B1.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/SpaceShooterLevel.umap'
+[2017.03.14-10.25.02:973][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/SpaceShooterLevel.umap
+[2017.03.14-10.30.39:613][426]BlueprintLog: New page: Compile BP_AsteroidSpawner
+[2017.03.14-10.30.39:725][426]BlueprintEditorCompileResults: Info [4702.12] Compile of BP_AsteroidSpawner successful! [in 111 ms] (/Game/BP_AsteroidSpawner.BP_AsteroidSpawner)
+[2017.03.14-10.32.18:373][814]BlueprintLog: New page: Compile BP_AsteroidSpawner
+[2017.03.14-10.32.18:477][814]BlueprintEditorCompileResults: Info [4800.87] Compile of BP_AsteroidSpawner successful! [in 104 ms] (/Game/BP_AsteroidSpawner.BP_AsteroidSpawner)
+[2017.03.14-10.32.18:874][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_AsteroidSpawner" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_AsteroidSpawner.uasset" SILENT=true
+[2017.03.14-10.32.18:902][831]LogSavePackage: Save=24.20ms
+[2017.03.14-10.32.18:902][831]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_AsteroidSpawner41BD059B44ED1009B34EEAA8A0018E1E.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_AsteroidSpawner.uasset'
+[2017.03.14-10.32.18:904][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_AsteroidSpawner.uasset
+[2017.03.14-10.32.21:345][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.32.21:345][944]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:32:21)
+[2017.03.14-10.32.21:345][944]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.32.21:347][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001865s)
+[2017.03.14-10.32.21:348][944]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.32.21:348][944]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2017.03.14-10.32.21:348][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002663s)
+[2017.03.14-10.32.21:433][944]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.32.21:435][944]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.32.21
+[2017.03.14-10.32.21:435][944]LogWorld: Bringing up level for play took: 0.002064
+[2017.03.14-10.32.21:437][944]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 1.061
+[2017.03.14-10.33.45:476][941]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.33.45:583][941]BlueprintEditorCompileResults: Info [4887.98] Compile of Bp_Asteroid successful! [in 107 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.33.48:186][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.33.48:186][ 65]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:33:48)
+[2017.03.14-10.33.48:186][ 65]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.33.48:187][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001551s)
+[2017.03.14-10.33.48:188][ 65]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.33.48:188][ 65]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2017.03.14-10.33.48:188][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002313s)
+[2017.03.14-10.33.48:255][ 65]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.33.48:258][ 65]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.33.48
+[2017.03.14-10.33.48:258][ 65]LogWorld: Bringing up level for play took: 0.001885
+[2017.03.14-10.33.48:259][ 65]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.117
+[2017.03.14-10.33.52:980][480]LogActorComponent:Error: May not destroy component StaticMeshComponent /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.SpaceCraft owned by BP_SpaceShip_C /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.
+[2017.03.14-10.33.56:888][830]LogActorComponent:Error: May not destroy component StaticMeshComponent /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.SpaceCraft owned by BP_SpaceShip_C /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.
+[2017.03.14-10.33.58:326][964]LogActorComponent:Error: May not destroy component StaticMeshComponent /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.SpaceCraft owned by BP_SpaceShip_C /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.
+[2017.03.14-10.33.58:859][ 13]LogActorComponent:Error: May not destroy component StaticMeshComponent /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.SpaceCraft owned by BP_SpaceShip_C /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.
+[2017.03.14-10.34.05:919][636]LogActorComponent:Error: May not destroy component StaticMeshComponent /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.SpaceCraft owned by BP_SpaceShip_C /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.
+[2017.03.14-10.34.08:041][820]LogActorComponent:Error: May not destroy component StaticMeshComponent /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.SpaceCraft owned by BP_SpaceShip_C /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.
+[2017.03.14-10.34.09:725][965]LogActorComponent:Error: May not destroy component StaticMeshComponent /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.SpaceCraft owned by BP_SpaceShip_C /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.
+[2017.03.14-10.34.10:753][ 54]LogActorComponent:Error: May not destroy component StaticMeshComponent /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.SpaceCraft owned by BP_SpaceShip_C /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel:PersistentLevel.BP_SpaceShip_296.
+[2017.03.14-10.35.09:887][538]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.35.10:007][538]BlueprintEditorCompileResults: Info [4972.40] Compile of Bp_Asteroid successful! [in 119 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.35.13:123][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.35.13:123][687]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:35:13)
+[2017.03.14-10.35.13:123][687]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.35.13:125][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001634s)
+[2017.03.14-10.35.13:125][687]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.35.13:125][687]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2017.03.14-10.35.13:125][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002416s)
+[2017.03.14-10.35.13:193][687]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.35.13:195][687]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.35.13
+[2017.03.14-10.35.13:196][687]LogWorld: Bringing up level for play took: 0.001987
+[2017.03.14-10.35.13:197][687]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.821
+[2017.03.14-10.36.06:560][909]LogSavePackage: Save=18.07ms
+[2017.03.14-10.36.06:560][909]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/SpaceShooterLevel_Auto4EEC8F30A4D2B7B31348981AEA3B2A524.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto4.umap'
+[2017.03.14-10.36.06:561][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto4.umap
+[2017.03.14-10.36.06:563][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SpaceShooterLevel' took 0.042
+[2017.03.14-10.36.06:563][909]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.042
+[2017.03.14-10.36.06:565][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bp_Asteroid] ([1] browsable assets)...
+[2017.03.14-10.36.06:580][909]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bp_Asteroid.Bp_Asteroid]
+[2017.03.14-10.36.06:580][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bp_Asteroid]
+[2017.03.14-10.36.06:615][909]LogSavePackage: Save=31.12ms
+[2017.03.14-10.36.06:615][909]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Bp_Asteroid_Auto48128DA7F46B2B625EAC8E29B0917CD39.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/Bp_Asteroid_Auto4.uasset'
+[2017.03.14-10.36.06:616][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/Bp_Asteroid_Auto4.uasset
+[2017.03.14-10.36.06:616][909]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.03.14-10.36.28:657][346]BlueprintLog: New page: Collapse to Function
+[2017.03.14-10.36.59:983][315]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.14-10.36.59:989][315]LogPlayLevel: [PlayLevel] Compiling Bp_Asteroid before play...
+[2017.03.14-10.37.00:081][315]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (2 blueprints)
+[2017.03.14-10.37.00:083][315]LogPlayLevel: [PlayLevel] Compiling BP_AsteroidSpawner before play...
+[2017.03.14-10.37.00:197][315]LogPlayLevel: PlayLevel: Blueprint regeneration took 214 ms (2 blueprints)
+[2017.03.14-10.37.00:219][315]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:37:00)
+[2017.03.14-10.37.00:219][315]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.37.00:220][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001597s)
+[2017.03.14-10.37.00:221][315]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.37.00:221][315]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2017.03.14-10.37.00:221][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002438s)
+[2017.03.14-10.37.00:286][315]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.37.00:289][315]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.37.00
+[2017.03.14-10.37.00:289][315]LogWorld: Bringing up level for play took: 0.001930
+[2017.03.14-10.37.00:290][315]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel -0.088
+[2017.03.14-10.40.28:070][578]0.685049
+[2017.03.14-10.40.28:095][579]0.772380
+[2017.03.14-10.40.28:117][580]0.804987
+[2017.03.14-10.40.28:137][581]0.847855
+[2017.03.14-10.40.28:156][582]0.860053
+[2017.03.14-10.40.28:175][583]0.880501
+[2017.03.14-10.40.28:196][584]0.902951
+[2017.03.14-10.40.28:215][585]0.915245
+[2017.03.14-10.40.28:234][586]0.925443
+[2017.03.14-10.41.57:230][901]0.754687
+[2017.03.14-10.41.57:250][902]0.807208
+[2017.03.14-10.41.57:271][903]0.864269
+[2017.03.14-10.41.57:290][904]0.914593
+[2017.03.14-10.41.57:309][905]0.932277
+[2017.03.14-10.41.57:337][906]0.942406
+[2017.03.14-10.41.57:473][913]0.952541
+[2017.03.14-10.41.57:492][914]0.962683
+[2017.03.14-10.41.57:555][917]0.960369
+[2017.03.14-10.41.57:591][919]0.956066
+[2017.03.14-10.41.57:610][920]0.954078
+[2017.03.14-10.41.57:647][922]0.952200
+[2017.03.14-10.41.57:719][926]0.940158
+[2017.03.14-10.41.57:737][927]0.938483
+[2017.03.14-10.41.57:755][928]0.926615
+[2017.03.14-10.41.57:773][929]0.925150
+[2017.03.14-10.41.57:791][930]0.914830
+[2017.03.14-10.41.58:081][946]0.926615
+[2017.03.14-10.41.58:171][951]0.948775
+[2017.03.14-10.41.58:191][952]0.974557
+[2017.03.14-10.41.58:210][953]1.005627
+[2017.03.14-10.41.58:228][954]1.056149
+[2017.03.14-10.41.59:720][ 16]0.870275
+[2017.03.14-10.41.59:783][ 19]0.868340
+[2017.03.14-10.41.59:820][ 21]0.876796
+[2017.03.14-10.41.59:839][ 22]0.885417
+[2017.03.14-10.41.59:858][ 23]0.894197
+[2017.03.14-10.41.59:877][ 24]0.913465
+[2017.03.14-10.41.59:896][ 25]0.922566
+[2017.03.14-10.41.59:916][ 26]0.932917
+[2017.03.14-10.41.59:935][ 27]0.952541
+[2017.03.14-10.42.00:060][ 34]0.962908
+[2017.03.14-10.42.00:097][ 36]0.993086
+[2017.03.14-10.42.00:116][ 37]1.013044
+[2017.03.14-10.42.00:134][ 38]1.033142
+[2017.03.14-10.42.00:135][ 38]1.043540
+[2017.03.14-10.42.00:153][ 39]1.053372
+[2017.03.14-10.42.00:209][ 42]1.063776
+[2017.03.14-10.42.00:262][ 45]1.063317
+[2017.03.14-10.42.00:281][ 46]1.062704
+[2017.03.14-10.42.00:462][ 56]1.073119
+[2017.03.14-10.42.00:515][ 59]1.083534
+[2017.03.14-10.42.00:554][ 61]1.093948
+[2017.03.14-10.42.00:590][ 63]1.104363
+[2017.03.14-10.42.00:608][ 64]1.125193
+[2017.03.14-10.42.00:627][ 65]1.135847
+[2017.03.14-10.42.00:664][ 67]1.156672
+[2017.03.14-10.42.00:700][ 69]1.167410
+[2017.03.14-10.44.03:907][495]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-10.44.04:588][495]BlueprintEditorCompileResults: Info [5506.98] Compile of BP_SpaceShip successful! [in 681 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-10.44.12:657][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_SpaceShip" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset" SILENT=true
+[2017.03.14-10.44.12:724][ 53]LogSavePackage: Save=61.82ms
+[2017.03.14-10.44.12:724][ 53]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShipEFC5D0E049FAC108FB564586A753560C.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset'
+[2017.03.14-10.44.12:726][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset
+[2017.03.14-10.45.09:865][307]BlueprintLog: New page: Compile UI
+[2017.03.14-10.45.10:007][307]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2017.03.14-10.45.10:007][307]BlueprintEditorCompileResults: Info [5572.40] Compile of UI successful! [in 141 ms] (/Game/UI.UI)
+[2017.03.14-10.45.12:857][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/UI.uasset" SILENT=true
+[2017.03.14-10.45.12:873][531]LogSavePackage: Save=15.11ms
+[2017.03.14-10.45.12:873][531]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/UI9F7BE05A492F12AA03B51B8D14E04FE1.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/UI.uasset'
+[2017.03.14-10.45.12:875][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/UI.uasset
+[2017.03.14-10.46.12:040][235]LogSavePackage: Save=17.50ms
+[2017.03.14-10.46.12:040][235]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/SpaceShooterLevel_Auto59BB7586B4AE6B592239DA5927EBB49A2.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto5.umap'
+[2017.03.14-10.46.12:041][235]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/SpaceShooterLevel_Auto5.umap
+[2017.03.14-10.46.12:042][235]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SpaceShooterLevel' took 0.044
+[2017.03.14-10.46.12:042][235]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.044
+[2017.03.14-10.46.12:044][235]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_SpaceShip] ([1] browsable assets)...
+[2017.03.14-10.46.12:044][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_SpaceShip]
+[2017.03.14-10.46.12:086][235]LogSavePackage: Save=38.62ms
+[2017.03.14-10.46.12:086][235]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShip_Auto57EBE4C854D7482C4BF015DA7467D3051.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/BP_SpaceShip_Auto5.uasset'
+[2017.03.14-10.46.12:087][235]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/BP_SpaceShip_Auto5.uasset
+[2017.03.14-10.46.12:088][235]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bp_Asteroid] ([1] browsable assets)...
+[2017.03.14-10.46.12:103][235]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bp_Asteroid.Bp_Asteroid]
+[2017.03.14-10.46.12:103][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bp_Asteroid]
+[2017.03.14-10.46.12:139][235]LogSavePackage: Save=32.02ms
+[2017.03.14-10.46.12:139][235]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Bp_Asteroid_Auto505539C0C421F15A176EDD091BEF68C74.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/Bp_Asteroid_Auto5.uasset'
+[2017.03.14-10.46.12:140][235]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Autosaves/Game/Bp_Asteroid_Auto5.uasset
+[2017.03.14-10.46.12:140][235]LogFileHelpers: Auto-saving content packages took 0.097
+[2017.03.14-10.48.20:134][293]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.14-10.48.56:010][417]BlueprintLog: New page: Compile BP_SpaceShip
+[2017.03.14-10.48.56:172][417]BlueprintEditorCompileResults: Info [5798.56] Compile of BP_SpaceShip successful! [in 161 ms] (/Game/BP_SpaceShip.BP_SpaceShip)
+[2017.03.14-10.48.57:000][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_SpaceShip" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset" SILENT=true
+[2017.03.14-10.48.57:054][464]LogSavePackage: Save=50.25ms
+[2017.03.14-10.48.57:054][464]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/BP_SpaceShip8BD069B64E9F5AA6394FA4A24426DA8A.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset'
+[2017.03.14-10.48.57:056][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/BP_SpaceShip.uasset
+[2017.03.14-10.50.43:306][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.50.43:306][373]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:50:43)
+[2017.03.14-10.50.43:306][373]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.50.43:308][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001597s)
+[2017.03.14-10.50.43:308][373]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.50.43:308][373]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2017.03.14-10.50.43:308][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002461s)
+[2017.03.14-10.50.43:378][373]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.50.43:380][373]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.50.43
+[2017.03.14-10.50.43:380][373]LogWorld: Bringing up level for play took: 0.001857
+[2017.03.14-10.50.43:382][373]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.998
+[2017.03.14-10.51.25:839][705]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.51.26:426][705]BlueprintEditorCompileResults: Info [5948.81] Compile of Bp_Asteroid successful! [in 586 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.54.25:927][ 52]BlueprintLog: New page: Compile Bp_Asteroid
+[2017.03.14-10.54.26:060][ 52]BlueprintEditorCompileResults: Info [6128.45] Compile of Bp_Asteroid successful! [in 133 ms] (/Game/Bp_Asteroid.Bp_Asteroid)
+[2017.03.14-10.54.29:007][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.14-10.54.29:007][179]PIE: New page: PIE session: SpaceShooterLevel (14 Mar 2017 10:54:29)
+[2017.03.14-10.54.29:007][179]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpaceShooterLevel
+[2017.03.14-10.54.29:009][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001668s)
+[2017.03.14-10.54.29:010][179]LogAIModule: Creating AISystem for world SpaceShooterLevel
+[2017.03.14-10.54.29:010][179]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2017.03.14-10.54.29:010][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpaceShooterLevel.SpaceShooterLevel to /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel (0.002500s)
+[2017.03.14-10.54.29:076][179]LogWorld: Game class is 'GameMode'
+[2017.03.14-10.54.29:078][179]LogWorld: Bringing World /Game/UEDPIE_0_SpaceShooterLevel.SpaceShooterLevel up for play (max tick rate 0) at 2017.03.14-10.54.29
+[2017.03.14-10.54.29:079][179]LogWorld: Bringing up level for play took: 0.001926
+[2017.03.14-10.54.29:080][179]PIE: Info Play in editor start time for /Game/UEDPIE_0_SpaceShooterLevel 0.694
+[2017.03.14-10.55.52:987][232]LogSavePackage: Save=18.00ms
+[2017.03.14-10.55.52:987][232]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/SpaceShooterLevelC995F246480EBFF125C339B04005002B.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/SpaceShooterLevel.umap'
+[2017.03.14-10.55.52:989][232]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/SpaceShooterLevel.umap
+[2017.03.14-10.55.57:326][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp_Asteroid" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset" SILENT=true
+[2017.03.14-10.55.57:369][436]LogSavePackage: Save=39.09ms
+[2017.03.14-10.55.57:369][436]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/Bp_Asteroid9A637F9341A41A9F12A265A2660EC1D5.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset'
+[2017.03.14-10.55.57:372][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/Bp_Asteroid.uasset
+[2017.03.14-10.56.05:276][787]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-10.56.05:292][787]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-10.56.05:307][787]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-10.56.05:325][787]LogMaterial: Missing cached shader map for material M_LaserGreen, compiling. 
+[2017.03.14-10.56.05:340][787]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.03.14-10.56.05:409][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.14-10.56.05:579][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.14-10.56.05:746][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.14-10.56.08:010][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Laser" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_Laser.uasset" SILENT=true
+[2017.03.14-10.56.08:029][854]LogSavePackage: Save=7.58ms
+[2017.03.14-10.56.08:029][854]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/M_Laser24A144274BE9DFC44A95979F2D57CD83.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_Laser.uasset'
+[2017.03.14-10.56.08:035][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_Laser.uasset
+[2017.03.14-10.56.08:069][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_LaserGreen" FILE="../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_LaserGreen.uasset" SILENT=true
+[2017.03.14-10.56.08:093][854]LogSavePackage: Save=16.34ms
+[2017.03.14-10.56.08:093][854]LogSavePackage: Moving '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Saved/M_LaserGreen9661F02B45B304507647E4B5E27D223E.tmp' to '../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_LaserGreen.uasset'
+[2017.03.14-10.56.08:095][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Thomasn/Desktop/Unreal Projects/SpaceShooterGroup2/Content/M_LaserGreen.uasset
+[2017.03.14-10.56.08:331][855]Cmd: QUIT_EDITOR
+[2017.03.14-10.56.08:429][855]LogExit: Preparing to exit.
+[2017.03.14-10.56.08:908][855]LogExit: Editor shut down
+[2017.03.14-10.56.08:908][855]LogExit: Transaction tracking system shut down
+[2017.03.14-10.56.09:038][855]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.14-10.56.09:038][855]LogExit: Object subsystem successfully closed.
+[2017.03.14-10.56.09:059][855]LogD3D11RHI: Shutdown
+[2017.03.14-10.56.09:059][855]LogD3D11RHI: CleanupD3DDevice
+[2017.03.14-10.56.09:120][855]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.14-10.56.09:134][855]LogModuleManager: Shutting down and abandoning module SequencerWidgets (220)
+[2017.03.14-10.56.09:134][855]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (219)
+[2017.03.14-10.56.09:143][855]LogModuleManager: Shutting down and abandoning module MaterialEditor (218)
+[2017.03.14-10.56.09:143][855]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2017.03.14-10.56.09:143][855]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2017.03.14-10.56.09:143][855]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2017.03.14-10.56.09:143][855]LogModuleManager: Shutting down and abandoning module CrashTracker (214)
+[2017.03.14-10.56.09:143][855]LogModuleManager: Shutting down and abandoning module SceneOutliner (213)
+[2017.03.14-10.56.09:143][855]LogModuleManager: Shutting down and abandoning module WidgetCarousel (212)
+[2017.03.14-10.56.09:143][855]LogModuleManager: Shutting down and abandoning module AddContentDialog (211)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module GameplayTags (210)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module EditorWidgets (209)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module CollectionManager (208)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module StatsViewer (207)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2017.03.14-10.56.09:145][855]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2017.03.14-10.56.09:146][855]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2017.03.14-10.56.09:517][855]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2017.03.14-10.56.09:518][855]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2017.03.14-10.56.09:518][855]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2017.03.14-10.56.09:518][855]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2017.03.14-10.56.09:518][855]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2017.03.14-10.56.09:518][855]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2017.03.14-10.56.09:518][855]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2017.03.14-10.56.09:518][855]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2017.03.14-10.56.09:558][855]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2017.03.14-10.56.09:559][855]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2017.03.14-10.56.09:559][855]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2017.03.14-10.56.09:559][855]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2017.03.14-10.56.09:559][855]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2017.03.14-10.56.09:559][855]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2017.03.14-10.56.09:559][855]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2017.03.14-10.56.09:560][855]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SubstanceEditor (129)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2017.03.14-10.56.09:748][855]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2017.03.14-10.56.09:749][855]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2017.03.14-10.56.09:750][855]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2017.03.14-10.56.09:751][855]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2017.03.14-10.56.09:751][855]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2017.03.14-10.56.09:851][855]LogModuleManager: Shutting down and abandoning module SubstanceCore (94)
+[2017.03.14-10.56.09:851][855]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.03.14-10.56.09:851][855]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.03.14-10.56.09:851][855]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.03.14-10.56.09:851][855]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.03.14-10.56.09:851][855]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.03.14-10.56.09:852][855]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.03.14-10.56.09:854][855]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.03.14-10.56.09:854][855]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.03.14-10.56.09:854][855]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.03.14-10.56.09:854][855]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.03.14-10.56.09:854][855]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.03.14-10.56.09:854][855]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.03.14-10.56.09:855][855]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.03.14-10.56.10:043][855]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.03.14-10.56.10:043][855]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.03.14-10.56.10:043][855]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.03.14-10.56.10:043][855]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.03.14-10.56.10:120][855]LogDerivedDataCache: Shutdown
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.03.14-10.56.10:120][855]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.03.14-10.56.10:121][855]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.03.14-10.56.10:121][855]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.03.14-10.56.10:121][855]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.03.14-10.56.10:121][855]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.03.14-10.56.10:121][855]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.03.14-10.56.10:121][855]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.03.14-10.56.10:121][855]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.03.14-10.56.10:121][855]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.03.14-10.56.11:622][855]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.03.14-10.56.11:622][855]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.03.14-10.56.11:622][855]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.03.14-10.56.11:622][855]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.14-10.56.11:622][855]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.14-10.56.11:622][855]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.14-10.56.11:622][855]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.14-10.56.11:631][855]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.14-10.56.11:631][855]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.14-10.56.11:631][855]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.14-10.56.11:631][855]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.14-10.56.11:631][855]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.14-10.56.11:631][855]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.14-10.56.11:631][855]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.14-10.56.11:632][855]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.14-10.56.11:632][855]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.14-10.56.11:632][855]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.14-10.56.11:635][855]LogExit: Exiting.
+[2017.03.14-10.56.11:659][855]Log file closed, 03/14/17 10:56:11
